@@ -1,0 +1,117 @@
+body {
+  background-color: #ffffff;
+  font-family: "Assistant", sans-serif;
+  color: #07c;
+}
+
+.text-menu h1 {
+  color: #fb5f88;
+}
+
+.navbar-brand img {
+  max-height: 35px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071c4d;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071c4d !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  height: 62px;
+  margin-bottom: -8px !important;
+  margin-right: -35px !important;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #fb5f88;
+  color: #ffffff;
+}
+
+.btn-login:hover {
+  background-color: #fbe66b;
+  color: #ffffff;
+}
+
+header {
+  padding: 180px 0 165px 0;
+  margin-top: -60px;
+}
+
+header h1,
+header p {
+  color: #ffffff;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.card-deck1 {
+  color: #fb5f88;
+  padding: 50px;
+  margin-top: -200px;
+}
+
+.card-deck1 img {
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.card-deck1 img:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-deck2 {
+  color: #fb5f88;
+  padding: 50px;
+  margin-top: -110px;
+}
+
+.card-deck2 img {
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.card-deck2 img:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-order {
+  background-color: #fb5f88;
+  color: #ffffff;
+}
+
+.btn-order .nav-link2 {
+  color: #ffffff;
+}
+
+.section-footer {
+  margin-bottom: 0;
+  background-color: #ffffff;
+}
+
+.section-footer h5 {
+  color: #ff0000;
+}
+
+.section-footer a {
+  color: #000000;
+}
+/*# sourceMappingURL=Menu.css.map */

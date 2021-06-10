@@ -1,0 +1,174 @@
+body {
+    background: rgb(251, 95, 136);
+    background: linear-gradient(
+        184deg,
+        rgba(251, 95, 136, 1) 0%,
+        rgba(251, 230, 107, 1) 100%
+    );
+    font-family: "Assistant", sans-serif;
+    color: #07c;
+}
+
+.navbar-brand {
+    img {
+        max-height: 35px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #071c4d;
+
+            &.active {
+                font-weight: bold;
+                color: #071c4d !important;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    height: 62px;
+    margin-bottom: -8px !important;
+    margin-right: -35px !important;
+    border-radius: 0;
+}
+
+.btn-login {
+    background-color: #fb5f88;
+    color: #ffffff;
+
+    &:hover {
+        background-color: #fbe66b;
+        color: #ffffff;
+    }
+}
+
+.carousel-inner {
+    max-height: 650px;
+    margin-top: -30px !important;
+}
+
+header {
+    padding: 180px 0 165px 0;
+    margin-top: 60px;
+
+    h1,
+    p {
+        color: #ffffff;
+    }
+
+    h1 {
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+}
+
+.card-deck {
+    color: #fb5f88;
+    padding: 50px;
+    margin-top: -100px;
+    img {
+        padding: 15px;
+        border-radius: 20px;
+    }
+}
+
+.people {
+    margin-top: 100px;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+}
+
+.section-testimonial-content {
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+
+        img {
+            max-width: 150px;
+
+            //border-radius: 100px;
+        }
+
+        .testimonial-content {
+            min-height: 380px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+
+        .testimonial {
+            font-weight: 200px;
+            font-size: 26px;
+            color: #ff9e53;
+        }
+
+        .trip-to {
+            font-weight: normal;
+            font-size: 22px;
+            color: #ff9e53;
+        }
+
+        hr {
+            margin-left: -2opx;
+            margin-right: -20px;
+        }
+    }
+
+    .btn-get-started {
+        background-color: #ff9e53;
+        color: #fff;
+
+        &:hover {
+            background-color: #ffaa69;
+            color: #fff;
+        }
+    }
+
+    .btn-need-help {
+        background-color: #ff0000;
+        color: #fff;
+
+        &:hover {
+            background-color: #7c0a02;
+            color: #fff;
+        }
+    }
+}
+
+.carouselpromo {
+    margin-top: 30px;
+    img {
+        max-height: 300px;
+    }
+}
+
+.section-footer {
+    margin-bottom: 0;
+    background-color: #ffffff;
+    h5 {
+        color: #ff0000;
+    }
+    a {
+        color: #000000;
+    }
+}
+
+.text-best {
+    margin-bottom: 70px;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+}

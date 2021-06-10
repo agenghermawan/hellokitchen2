@@ -1,0 +1,113 @@
+body {
+  background-color: #ffffff;
+  font-family: "Assistant", sans-serif;
+  color: #07c;
+}
+
+.text-menu {
+  h1 {
+    color: #fb5f88;
+  }
+}
+.navbar-brand {
+  img {
+    max-height: 35px;
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #071c4d;
+
+      &.active {
+        font-weight: bold;
+        color: #071c4d !important;
+      }
+    }
+  }
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  height: 62px;
+  margin-bottom: -8px !important;
+  margin-right: -35px !important;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #fb5f88;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #fbe66b;
+    color: #ffffff;
+  }
+}
+
+header {
+  padding: 180px 0 165px 0;
+  margin-top: -60px;
+
+  h1,
+  p {
+    color: #ffffff;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+}
+
+.card-deck1 {
+  color: #fb5f88;
+  padding: 50px;
+  margin-top: -200px;
+  img {
+    &:hover {
+      transform: scale(1.15);
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
+    padding: 15px;
+    border-radius: 20px;
+  }
+}
+
+.card-deck2 {
+  color: #fb5f88;
+  padding: 50px;
+  margin-top: -110px;
+  img {
+    &:hover {
+      transform: scale(1.15);
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
+    padding: 15px;
+    border-radius: 20px;
+  }
+}
+
+.btn-order {
+  background-color: #fb5f88;
+  color: #ffffff;
+
+  .nav-link2 {
+    color: #ffffff;
+  }
+}
+
+.section-footer {
+  margin-bottom: 0;
+  background-color: #ffffff;
+  h5 {
+    color: #ff0000;
+  }
+  a {
+    color: #000000;
+  }
+}

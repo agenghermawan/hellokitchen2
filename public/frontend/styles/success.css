@@ -1,0 +1,99 @@
+body {
+  background-color: #ffffff;
+  font-family: "Assistant", sans-serif;
+  color: #07c;
+}
+
+.navbar-brand img {
+  max-height: 35px;
+}
+
+.header-about h1 {
+  color: #071c4d;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071c4d;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071c4d !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  height: 62px;
+  margin-bottom: -8px !important;
+  margin-right: -35px !important;
+  border-radius: 0;
+}
+
+
+header {
+  padding: 180px 0 165px 0;
+  margin-top: -60px;
+}
+
+header h1,
+header p {
+  color: #ffffff;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.card-deck1 {
+  color: #fb5f88;
+  padding: 50px;
+  margin-top: -200px;
+}
+
+.card-deck1 img {
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.card-deck2 {
+  color: #fb5f88;
+  padding: 100px;
+  margin-top: -110px;
+}
+
+.card-deck2 img {
+  margin: auto;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.btn-order {
+  background-color: #fb5f88;
+  color: #ffffff;
+}
+
+.header-bg {
+  margin: auto;
+  padding: 180px 0 180px 20px;
+  background-image: url("../images/ic_mail.png");
+  background-repeat: no-repeat;
+    background-position: center;
+
+  background-size: contain;
+}
+
+.header-bg h1 {
+  font-size: 40px;
+  color: #008bfc;
+}
+
+.header-bg p {
+  color: #000;
+}
+
+.card-pop {
+  width: 350px;
+}
+/*# sourceMappingURL=about.css.map */

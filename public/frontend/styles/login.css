@@ -1,0 +1,123 @@
+body {
+  background: #fb5f88;
+  background: linear-gradient(184deg, #fb5f88 0%, #fbe66b 100%);
+  font-family: "Assistant", sans-serif;
+  color: #07c;
+}
+
+.main-content {
+  width: 50%;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  margin: 5em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.company__info {
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.fa-android {
+  font-size: 3em;
+}
+
+@media screen and (max-width: 640px) {
+  .main-content {
+    width: 90%;
+  }
+  .company__info {
+    display: none;
+  }
+  .login_form {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 642px) and (max-width: 800px) {
+  .main-content {
+    width: 70%;
+  }
+}
+
+.login_form {
+  background-color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.form__input {
+  width: 100%;
+  border: 0px solid transparent;
+  border-radius: 0;
+  border-bottom: 1px solid #aaa;
+  padding: 1em 0.5em 0.5em;
+  padding-left: 2em;
+  outline: none;
+  margin: 1.5em auto;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.form__input:focus {
+  border-bottom-color: #008080;
+  -webkit-box-shadow: 0 0 5px rgba(0, 80, 80, 0.4);
+          box-shadow: 0 0 5px rgba(0, 80, 80, 0.4);
+  border-radius: 4px;
+}
+
+.text-login h2 {
+  margin-top: 10px;
+}
+
+.row-submit {
+  color: #008080;
+}
+
+.btn-submit {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 70%;
+  border-radius: 30px;
+  color: #07c;
+  font-weight: 600;
+  background-color: #fff;
+  border: 1px solid #07c;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.btn-submit:hover,
+.btn:focus {
+  background-color: #fb5f88;
+  color: #fff;
+}
+
+.row2 {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row3 {
+  margin-right: auto;
+  margin-left: -210px;
+}
+/*# sourceMappingURL=login.css.map */

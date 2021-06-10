@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BISMILLAH PI</title>
+    <link
+      rel="stylesheet"
+      href="frontend/libraries/Bootstrap/css/bootstrap.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="frontend/styles/cart.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div
+      class="container fixed-top"
+      data-aos="fade-down"
+      data-aos-duration="2200"
+    >
+      <nav class="row navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="frontend/images/Hello Kitchen.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navb"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navb">
+          <ul class="navbar-nav ml-auto mr-3">
+            <li class="nav-item mx-md-">
+              <a class="nav-link active" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="Menu.html">Menu</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="#">Stores</a>
+            </li>
+
+            <!--MOBILE BUTTON-->
+            <form class="form-inline d-sm-block d-md-none">
+              <button class="btn btn-login my-2 my-sm-0 px-4">LOGIN</button>
+            </form>
+
+            <!--DESKTOP BUTTON-->
+            <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+              <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                LOGIN
+              </button>
+            </form>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <header class="text-center">
+      <div class="text-cart">
+        <h1>CART</h1>
+      </div>
+    </header>
+
+    
+  <main>
+    <div class="card">
+      <div class="shadow card-body">
+        <div class="page-content page-cart">
+        <section class="store-cart">
+        <div class="container">
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-12 table-responsive">
+              <table
+                class="table table-borderless table-cart"
+                aria-describedby="Cart"
+              >
+                <thead>
+                  <tr>
+                    <th scope="col">Image</th>
+                    <th scope="col">Name &amp; Description</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Menu</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="width: 25%;">
+                      <img
+                        src="frontend/images/Bango_Nasi_Goreng_Rempah_1.jpg"
+                        alt=""
+                        class="cart-image"
+                      />
+                    </td>
+                    <td style="width: 35%;">
+                      <div class="product-title">Nasi goreng rempah</div>
+                      <div class="product-subtitle">Nasi goreng yang dibuat dengan bumbu-bumbu pilihan</div>
+                    </td>
+                    <td style="width: 35%;">
+                      <div class="product-title">Rp.75.000</div>
+                      
+                    </td>
+                    <td style="width: 20%;">
+                      <a href="#" class="btn btn-remove-cart">
+                        Remove
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              
+                      
+            </div>
+          </div>
+        </div>
+  
+      </section>
+      </div>
+    </div>
+    </div>
+
+    <section class="store-cart">
+      <div class="card mt-4 border-top-0" data-aos="fade-up">
+       <div class="shadow card-body">
+         <h2 class="col-md-6">Shipping Details</h2>
+         <div class="col-md-6">
+              <div class="form-group">
+                <label for="addressOne">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="addressOne"
+                  aria-describedby="emailHelp"
+                  name="address"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="addressOne">Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="addressOne"
+                  aria-describedby="emailHelp"
+                  name="addres"
+                />
+              </div>
+            </div>
+
+              <div class="col-md-4">
+              <div class="form-group">
+                <label for="province">Phone Number</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="addressOne"
+                  aria-describedby="emailHelp"
+                  name="addres"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="province">Total</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="addressOne"
+                  aria-describedby="emailHelp"
+                  name="addres"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-4">
+            <a href="#" class="btn btn-order ">
+                          Order Now
+              </a>
+             
+            </div>
+            </section>
+  </main>
+
+  
+  <footer class="section-footer border-top">
+    <div class="container pt-5 pb-4">
+      <div class="row justify-content-center">
+        <div class="col-12">
+            <div class="col-12 col-lg-3">
+              <h5>GET CONNECTED</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Cibubur</a></li>
+                <li><a href="#">Indonesia</a></li>
+                <li><a href="#">0822-2222-8888</a></li>
+                <li><a href="#">Hellokitchen92@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div
+        class="row border-top justify-content-center align-items-center pt-4"
+      >
+        <div class="col-auto text-gray-500 font-weight-light"></div>
+          2021 Copyright Hello Kitchen + All rights reserved + Made in Cibubur
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="frontend/libraries/Bootstrap/js/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+
+
+</html>

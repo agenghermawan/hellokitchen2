@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BISMILLAH PI</title>
+        <link
+            rel="stylesheet"
+            href="frontend/libraries/Bootstrap/css/bootstrap.css"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="frontend/styles/login.css" />
+        <link rel="stylesheet" href="frontend/styles/main.css" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <div
+            class="container fixed-top"
+            data-aos="fade-down"
+            data-aos-duration="2200"
+        >
+            <nav class="row navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="frontend/images/Hello Kitchen.png" alt="" />
+                </a>
+                <button
+                    class="navbar-toggler navbar-toggler-right"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navb"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="navb">
+                    <ul class="navbar-nav ml-auto mr-3">
+                        <li class="nav-item mx-md-">
+                            <a class="nav-link active" href="Index.html"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a class="nav-link" href="Menu.html">Menu</a>
+                        </li>
+
+                        <li class="nav-item mx-md-2">
+                            <a class="nav-link" href="cart.html">
+                                <img
+                                    src="/frontend/images/cart-icon-28356.png"
+                                    alt=""
+                                    class="mr-1"
+                            /></a>
+                        </li>
+
+                        <!--MOBILE BUTTON-->
+                        <form class="form-inline d-sm-block d-md-none">
+                            <button class="btn btn-login my-2 my-sm-0 px-4">
+                                LOGIN
+                            </button>
+                        </form>
+
+                        <!--DESKTOP BUTTON-->
+                        <form
+                            class="form-inline my-2 my-lg-0 d-none d-md-block"
+                        >
+                            <button
+                                class="
+                                    btn btn-login btn-navbar-right
+                                    my-2 my-sm-0
+                                    px-4
+                                "
+                            >
+                                LOGIN
+                            </button>
+                        </form>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div
+            class="container-fluid"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+        >
+            <div class="row main-content bg-success text-center">
+                <div class="col-md-4 text-center company__info">
+                    <img src="frontend/images/4957136.jpg" alt="" />
+                    <span class="company__logo"
+                        ><h2><span class="fa fa-android"></span></h2
+                    ></span>
+                </div>
+                <div class="col-md-8 col-xs-12 col-sm-12 login_form">
+                    <div class="container-fluid">
+                        <div class="text-login text-left">
+                            <h2>Log In</h2>
+                        </div>
+                        <div class="row">
+                            <form control="" class="form-group">
+                                <div class="row">
+                                    <input
+                                        type="text"
+                                        name="username"
+                                        id="username"
+                                        class="form__input"
+                                        placeholder="Username"
+                                    />
+                                </div>
+                                <div class="row">
+                                    <!-- <span class="fa fa-lock"></span> -->
+                                    <input
+                                        type="password"
+                                        name="password"
+                                        id="password"
+                                        class="form__input"
+                                        placeholder="Password"
+                                    />
+                                </div>
+                                <div class="row2">
+                                    <input
+                                        type="checkbox"
+                                        name="remember_me"
+                                        id="remember_me"
+                                        class=""
+                                    />
+                                    <label for="remember_me"
+                                        >Remember Me!</label
+                                    >
+                                </div>
+                                <div class="row-submit">
+                                    <input
+                                        type="submit"
+                                        value="Submit"
+                                        class="btn-submit"
+                                    />
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row3">
+                            <p>
+                                Don't have an account?
+                                <a href="#">Register Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+
+        <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
+        <script src="frontend/libraries/Bootstrap/js/bootstrap.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+
+    <main></main>
+</html>

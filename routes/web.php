@@ -39,6 +39,7 @@ Route::get('/success', function () {
 })->name('success');
 
 Route::prefix('admin')
+    ->middleware(['auth', 'admin'])
     ->group(function() {
         Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard.index');
         Route::resource('backendmenu', MenuBackendController::class);

@@ -25,13 +25,12 @@
                     <div class="col-lg-3 text-left">
                         <h4 class="font-weight-bold"> Details Invoice </h4>
                         <p> Order ID : {{ $data->order_id }} <br>
-                            Tanggal Pembelian : {{ date('D d m Y  H', strtotime($data->tanggal)) }} <br>
+                            Tanggal Pembelian : {{ date('MMMM Do YYYY, h:mm:ss a', strtotime($data->tanggal)) }} <br>
                             Transaction Status : {{ $data->transaction_status }} <br>
                             Total Harga : Rp {{ number_format($data->total_price) }}
                         </p>
                     </div>
                 </div>
-
                 <table class="table">
                     <thead>
                         <tr>
@@ -44,7 +43,6 @@
                             <th>Total</th>
                         </tr>
                     </thead>
-                    <tbody>
                     <tbody>
                         @foreach ($datamenu as $item)
                             <tr>

@@ -6,12 +6,11 @@
             <h1>THE MENU</h1>
         </div>
     </header>
-
     <main>
-        <div class="card-deck1">
-            <div class="shadow p-3 mb-5 bg-body rounded">
-                <div class="card-deck">
-                    @foreach ($data as $item)
+        <div class="container-fluid mb-5">
+            <div class="row">
+                @foreach ($data as $item)
+                    <div class="col-lg-4 mb-4">
                         <div class="card border-0" data-aos="zoom-in" data-aos-delay="500">
                             <img class="card-img-top" src="{{ Storage::url($item->gambar) }}" width="600px" height="500px"
                                 alt="Card image cap" />
@@ -20,7 +19,6 @@
                                 <p class="card-text">
                                     {{ $item->keterangan }}
                                 </p>
-                                <p class="card-text"><small class="text-muted"></small></p>
                             </div>
                             @auth
                                 <form action="{{ route('cart-add', $item->id) }}" method="POST" enctype="multipart/form-data">
@@ -33,6 +31,9 @@
                                 <a href="{{ route('login') }}" class="btn btn-order"> Login to Add Product</a>
                             @endauth
                         </div>
-                    @endforeach
+                    </div>
+                @endforeach
+            </div>
+        </div>
     </main>
 @endsection

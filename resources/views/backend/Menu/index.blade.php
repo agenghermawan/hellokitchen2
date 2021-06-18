@@ -19,11 +19,16 @@
                 <tr>
                     <th scope="row">{{ $item->nama }}</th>
                     <td>{{ $item->harga }}</td>
-                    <td><img src="{{ Storage::url($item->gambar) }}" width="100px" alt=""></td>
+                    <td><img src="{{ Storage::url($item->gambar) }}" width="150px" height="120px" alt=""></td>
                     <td>{{ $item->keterangan }}</td>
                     <td>
                         <a href="{{ route('backendmenu.edit', $item->id) }}" class="fas fa-edit btn btn-info"></a>
-                        <a href="" class="fas fa-trash-alt btn btn-warning"></a>
+                        <form action="{{ route('backendmenu.destroy', $item->id) }}" class="d-inline" method="POST"
+                            enctype="multipart/form-data">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="fas fa-trash-alt btn btn-warning"></button>
+                        </form>
                     </td>
                 </tr>
             @endforeach

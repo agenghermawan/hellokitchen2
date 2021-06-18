@@ -110,6 +110,7 @@ class MenuBackendController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Menu::findOrFail($id)->delete();
+        return redirect()->route('backendmenu.index');
     }
 }

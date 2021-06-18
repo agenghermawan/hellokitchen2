@@ -9,7 +9,7 @@ class LandingPageController extends Controller
 {
        public function index(Request $request)
     {
-        $data = Menu::all();
+        $data = Menu::all()->take(3);
         return view('pages.Home')->with([
             'data' => $data
         ]);
